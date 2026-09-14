@@ -16,21 +16,21 @@ A collection of custom Python scripts and automation tools built on top of the *
 
 
 
-# 1. Source the main ROS 2 environment (replace 'humble' with your distro if needed)
+### 1. Source the main ROS 2 environment (replace 'humble' with your distro if needed)
 source /opt/ros/humble/setup.bash
 
-# 2. Build your workspace (if you made changes to code)
+### 2. Build your workspace (if you made changes to code)
 colcon build
 
-# 3. Source your local workspace setup file
+#### 3. Source your local workspace setup file
 source install/setup.bash
 
-# 4. Start the turtlesim simulation (Terminal 1)
+### 4. Start the turtlesim simulation (Terminal 1)
 ros2 run turtlesim turtlesim_node
 
 
 
-# In your second terminal:
+### In your second terminal:
 source /opt/ros/humble/setup.bash
 source install/setup.bash
 cd ~/turtle_sim
